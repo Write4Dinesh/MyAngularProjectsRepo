@@ -1,0 +1,5 @@
+h1{
+    background-color: hotpink;
+    color:Green; /* a styling applied for the html tags. Node: there is global css file as well
+    which is common for all the components we create. this local styling overrides the global styling*/
+}

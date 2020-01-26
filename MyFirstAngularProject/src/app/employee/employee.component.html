@@ -1,0 +1,9 @@
+<h1>Employee Component - this text displayed from employee.component.html </h1>
+<h3> Employee info</h3>
+<label>name : {{emp.name}}</label><br/><br>
+<label>Write Review</label>
+<input type="text" [(ngModel)] = "review">
+<br>
+<label> Your review is : {{review}}</label> 
+<br>
+<button (click) ="getReview()">Click</button>
